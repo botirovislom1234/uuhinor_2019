@@ -1,28 +1,79 @@
-a{
-    color: blue;
-    background-color: aqua;
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
 }
-.ul{
-    list-style: none;
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
 }
-body a{
+.bola  a{color: blue;
     text-decoration: none;
+}
+.bola li{
      list-style: none;
-}   
-body{
+}
+.p{
     display: flex;
     justify-content: center;
 }
-
- @media (max-width: 400px) {
-    .body{
+.l{
+    color:red;
+}
+ 
+  @media (max-width: 1287px) {
+    .div{
         display: flex;
         flex-wrap: wrap;
         /* width: 1000px; */
 
     }
-    .a{
+    .bola{
+        background: white;
+    }
+}
+
+ @media (max-width: 1287px) {
+    .div{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 1000px; */
+
+    }
+    .bola{
+        background: white;
+    }
+}
+ @media (max-width: 1287px) {
+    .div{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 1000px; */
+
+    }
+    .bola{
+        background: white;
+    }
+}
+ @media (max-width: 1287px) {
+    .div{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 1000px; */
+
+    }
+    .bola{
+        background: white;
+    }
+}
+ @media (max-width: 1287px) {
+    .div{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 1000px; */
+
+    }
+    .bola{
         background: white;
     }
 }
