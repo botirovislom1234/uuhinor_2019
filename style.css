@@ -1,0 +1,28 @@
+a{
+    color: blue;
+    background-color: aqua;
+    align-items: center;
+}
+.ul{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+     list-style: none;
+}   
+body{
+    display: flex;
+    justify-content: center;
+}
+
+ @media (max-width: 400px) {
+    .body{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 1000px; */
+
+    }
+    .a{
+        background: white;
+    }
+}
